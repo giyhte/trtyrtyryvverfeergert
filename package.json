@@ -1,0 +1,14 @@
+{
+  "name": "osm-simulator-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OSM Simulator browser portal with accounts, licenses, admin uploads and game library.",
+  "main": "license-server.js",
+  "scripts": {
+    "start": "node license-server.js",
+    "online": "node online-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
